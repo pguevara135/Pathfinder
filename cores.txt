@@ -1,0 +1,5 @@
+Fundo - #C3092E = rgb(195, 9, 46) - Vermelho
+Letra em H1 - #A8B6C6 = rgb(168, 182, 198)   - Cinza medio
+Letra em H2 - #1E273B = rgb(30, 39, 59) - cinza escuro
+Letra normal - #343434 =  - Cinza escuro 2
+Letra link - #EDF0F3 = rgb(237, 240, 243) - Cinza bem claro
