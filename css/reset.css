@@ -11,15 +11,25 @@ body {
     height: 100vh;
 }
 
+/* DEFINICAO DO CONTAINER */
+
+hr {
+    width: 98%;
+    height: 5px;
+    margin-top: 2%;
+    background-color: white;
+}
+
 .container {
     margin: 0 auto;
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9)), url(../pictures/Background.jpg);
+    min-height: 100vh;
+    height: auto;
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.3)), url(../pictures/Background.jpg);
     max-width: 960px;
-    color: #ffffff; /*#d92e3e */
+    color: black; /*#d92e3e */
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 12px solid red;
     font-family: 'black ops one', cursive;
 }
 
@@ -27,6 +37,7 @@ a { text-decoration: none; color: #ced5c3;}
 ul {list-style: none;}
 p {text-indent: 5%;}
 
+/*  CABECALHO  */
 .cabecalho {
     display: grid;
     align-items: center;
@@ -69,6 +80,7 @@ p {text-indent: 5%;}
     width: 100%;
     box-sizing: border-box;
     text-align: center;
+    align-items: center;
 }
 
 .menu h1 {
@@ -129,4 +141,25 @@ button {
 
 .principal {
     flex: 1;
+}
+
+/*  RODAPE */
+
+.rodape {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.rodape p {
+    display: flex;
+    font-size: 0.7em;
+}
+
+.rodape span {
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 1% 0 1% 0;
+    margin-bottom: 1%;
 }

@@ -1,3 +1,4 @@
+/*  CORPO PRINCIPAL */
 .principal {
     width: 100%;
     box-sizing: border-box;
@@ -49,24 +50,5 @@
 .descricao {
     width: 100%;
     padding: 1%;
-    margin-bottom: 1%;
-}
-
-.rodape {
-    text-align: center;
-    box-sizing: border-box;
-    border: 1px solid black;
-}
-
-.rodape p {
-    display: flex;
-    font-size: 0.7em;
-}
-
-.rodape span {
-    width: 100%;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 1% 0 1% 0;
     margin-bottom: 1%;
 }
