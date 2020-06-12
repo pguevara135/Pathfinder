@@ -1,1 +1,14 @@
-/*  AULA 27 */
+* {
+    font-family: 'Metal Mania', cursive;
+}
+
+.picture {
+    background-color: olivedrab;
+    padding: 5px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+/* aula 31 */
