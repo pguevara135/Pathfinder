@@ -1,14 +1,42 @@
 * {
     font-family: 'Metal Mania', cursive;
+    /* border: 1px solid lightgray; */
+    color: rgb(197, 197, 194);
 }
 
-.picture {
-    background-color: olivedrab;
-    padding: 5px;
+p {
+    text-align: justify;
 }
 
-img {
-    border-radius: 50%;
+a {
+    text-decoration: none;
+    color: grey;
 }
 
-/* aula 31 */
+a:hover {
+    text-decoration: none;
+    color: rgb(230, 147, 40);
+}
+
+.banner {
+    width: 960px;
+    height: 360px;
+    border: 2px solid red;
+}
+
+.menu-lateral a {
+    color: rgb(211, 149, 35);
+}
+
+.menu-lateral a:hover {
+    color: rgb(211, 149, 35);
+}
+
+footer {
+    font-size: .9em;
+}
+
+.img-thumbnail {
+    background-color: tomato;
+    margin-right: 20px;
+}
