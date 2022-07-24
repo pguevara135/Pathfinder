@@ -81,6 +81,7 @@ p {text-indent: 5%;}
     box-sizing: border-box;
     text-align: center;
     align-items: center;
+    background-color: blueviolet;
 }
 
 .menu h1 {
@@ -95,6 +96,8 @@ button {
 
 .btn {
     text-align: center;
+    width: 100%;
+    background-color: lightcyan;
 }
 
 
