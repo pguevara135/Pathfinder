@@ -1,0 +1,37 @@
+@import url();
+:root  {
+    --background: linear-gradient(180deg,rgb(135, 206, 235), rgb(0, 100, 0) 65%,rgb(139, 69, 19)  100%);
+    --letter: #0CF574;
+    --title: #406945;
+}
+
+@font-face {
+    font-family: 'titulo';
+    src: url('../fonts/GREEN\ NATURE.ttf');
+    /* font-weight: 100;
+    font-style: normal; */
+}
+
+@font-face {
+    font-family: 'corpo';
+    src: url('../fonts/Nature\ Breath.ttf');
+}
+
+h1, h2, h3, h4 {
+    color: var(--title);
+    font-family: 'titulo', 'Times New Roman', Times, serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom,#87ceeb, #006400 60%,#8b4513  100%) no-repeat;
+    color: var(--letter);
+    font-family: 'titulo', times, serif;
+}
+
+p {
+    font-family: 'corpo';
+    letter-spacing: 3px;
+    font-optical-sizing: 16px;
+}
