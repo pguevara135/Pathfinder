@@ -1,8 +1,8 @@
 @import url();
 :root  {
     --background: linear-gradient(180deg,rgb(135, 206, 235), rgb(0, 100, 0) 65%,rgb(139, 69, 19)  100%);
-    --letter: #0CF574;
-    --title: #406945;
+    --letter: #00120B;
+    --tittle: #406945;
 }
 
 @font-face {
@@ -18,8 +18,9 @@
 }
 
 h1, h2, h3, h4 {
-    color: var(--title);
+    color: var(--tittle);
     font-family: 'titulo', 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 body {
@@ -32,6 +33,5 @@ body {
 
 p {
     font-family: 'corpo';
-    letter-spacing: 3px;
     font-optical-sizing: 16px;
 }
