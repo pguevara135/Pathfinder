@@ -1,0 +1,20 @@
+
+
+.fontblue {
+    color: var(--blue);
+}
+
+.imginicio {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5%;
+}
+
+ul {
+    border: 2px solid black;
+}
+
+li {
+    background-color: greenyellow;
+}

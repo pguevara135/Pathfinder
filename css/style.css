@@ -9,28 +9,49 @@
 }
 
 h1, h2, h3, h4 {
-    color: var(--blue);
+    color: var(--red);
     font-size: 30px;
 }
 
 body {
     width: 100vw;
     height: 100vh;
-    background-color: var(--red);
-    color: var(--white);
+    background-color: var(--light-gray);
+    color: var(--blue);
     font-family:  "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
+main {
+    width: 100%;
+    display: flex;
+}
+
+article {
+    /* width: 10%; */
+}
+
 p {
     font-optical-sizing: 16px;
+    text-indent: 15px;
+    line-height: 1.3;
 }
 
 a {
     color: var(--white);
     font-weight: bold;
     cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 button:hover, a:hover, button:hover > a {
