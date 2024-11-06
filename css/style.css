@@ -16,6 +16,7 @@ h1, h2, h3, h4 {
 body {
     width: 100vw;
     height: 100vh;
+    padding: 1%;
     background-color: var(--light-gray);
     color: var(--blue);
     font-family:  "Roboto", sans-serif;
@@ -26,10 +27,17 @@ body {
 main {
     width: 100%;
     display: flex;
+    gap: 1%;
 }
 
 article {
-    /* width: 10%; */
+    background-color: khaki;
+    width: 80%;
+}
+
+aside {
+    width: 18%;
+    background-color: darkmagenta;
 }
 
 p {
