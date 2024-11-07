@@ -5,16 +5,18 @@
 }
 
 .imginicio {
-    width: 85%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5%;
-}
-
-ul {
-    border: 2px solid black;
+    justify-content: space-between;
+    border: 2px solid darkblue;
 }
 
 li {
     background-color: greenyellow;
+}
+
+li img {
+    width: 100%;
 }
