@@ -10,7 +10,7 @@
 
 h1, h2, h3, h4 {
     color: var(--red);
-    font-size: 2rem;
+    font-size: 3vw;
     font-weight: bolder;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
 }
@@ -29,29 +29,31 @@ body {
     font-weight: 300;
     font-style: normal;
     box-sizing: border-box;
-    border: 2px solid black;
 }
 
 .cabecalho {
-    max-width: 96%;
+    max-width: 97.5%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     overflow: auto;
-    border: 2px solid;
 }
 
 .tit_logo {
     width: 100%;
     height: 100%;
+    margin-right: 12vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .menu {
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin: 8px 0;
 }
 
 .posicao-botao {
@@ -64,17 +66,21 @@ body {
 }
 
 main {
-    max-width: 96%;
+    width: 97.5%;
     background-color: var(--white);
     display: flex;
     gap: 10px;
-    border: 2px solid red;
 }
 
 article {
     background-color: var(--white);
     width: 80%;
     padding: 0.5rem;
+}
+
+article h1 {
+    font-size: 1.7rem;
+    margin: 0.7rem auto;
 }
 
 aside {
@@ -104,9 +110,13 @@ img {
     height: auto;
 }
 
-.menu button:hover, .menu button:hover > a {
+.btn button {
+    height: 3rem;
+}
+
+.btn button:hover, .btn button:hover > a {
     background-color: var(--white);
-    color: var(--blue);
+    color: var(--red);
     cursor: pointer;
     transform: scale(1.2);
     font-weight: bolder;
@@ -117,6 +127,10 @@ button {
     background-color: var(--blue);
     border: 2px solid var(--white);
     padding: 5px 10px;
+}
+
+.mobile-menu-icon > button:hover {
+    background-color: var(--red);
 }
 
 .number {

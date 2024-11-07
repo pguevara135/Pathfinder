@@ -1,13 +1,13 @@
-h1, h2, h3, h4 {
-    font-size: 1rem;
-}
-
 .logo {
     width: 20%;
 }
 
 .cabecalho {
     position: relative;
+}
+
+.tit_logo {
+    margin: 0;
 }
 
 .mobile-menu-icon {
@@ -30,9 +30,9 @@ h1, h2, h3, h4 {
 
 .btn {
     width: 95%;
+    margin-left: 0.6rem;
     display: flex;
     flex-direction: column;
-    
 }
 .menu > button {
     width: 90%;
@@ -40,4 +40,9 @@ h1, h2, h3, h4 {
 
 main {
     margin-top: 1rem;
+}
+
+aside {
+    width: 100%;
+    padding: .5rem;
 }
