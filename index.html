@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/mobile-tablet.css" media="screen and (max-width: 750px)">
+    <link rel="stylesheet" href="src/css/mobile-cel.css" media="screen and (max-width: 570px)">
     
 </head>
 
@@ -29,10 +31,17 @@
                 <h1>PATHFINDER</h1>
                 <h2>Aventura e conforto em cada viagem</h2>
             </section>
-
+            <div class="mobile-menu-icon">
+                <button class="posicao-botao open" id="open" onclick="menuShow()">
+                    <img src="src/pictures/menu/menu_white_36dp.svg" alt="Botao para abrir menu de navegacao">
+                </button>
+                <button class="posicao-botao" id="close" onclick="menuClose()">
+                    <img src="src/pictures/menu/close_white_36dp.svg" alt="Botao para fechar o menu de navegação">
+                </button>
+            </div>
         </header>
 
-            <nav class="menu">
+            <nav class="menu" id="nav-item">
                 <div class="btn">
                     <button><a href="index.html">Home</a></button>
                     <button><a href="sobre.html">Sobre</a></button>
@@ -157,5 +166,6 @@
                 <span class="number">contato: 19 9 9903 0000 <br> e-mail kjgjhdhh@gmail.com</span>
             </p>
         </footer>
+        <script src="src/js/scripts.js"></script>
     </body>
 </html>
