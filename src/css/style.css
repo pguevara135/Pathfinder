@@ -26,7 +26,18 @@ h3 {
     font-size: 2vw;
 }
 
+h5 {
+    font-size: 1.5vw;
+    color: var(--blue);
+    font-style: oblique;
+    font-weight: bold;
+}
 
+.strong {
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}
 
 button {
     cursor: pointer;
@@ -96,11 +107,6 @@ article h1 {
     margin: 0.7rem auto;
 }
 
-aside {
-    width: 20%;
-    background-color: darkmagenta;
-}
-
 p {
     font-optical-sizing: 16px;
     text-indent: 15px;
@@ -151,4 +157,28 @@ button {
     color: var(--letter);
     font-weight: bold;
     font-size: 18px;
+}
+
+aside {
+    width: 20%;
+}
+
+.slide-content {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    overflow: hidden;
+}
+
+.slide-content li {
+    min-height: 200px;
+    padding: 0.5rem;
+    margin-bottom: 5px;
+    background-color: var(--gray);
+    overflow: scroll;
+}
+
+.slide-content h5 {
+    margin: .4em auto;
+    text-align: center;
 }

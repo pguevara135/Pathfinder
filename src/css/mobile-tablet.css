@@ -21,3 +21,17 @@ article {
 article h1 {
     text-align: center;
 }
+
+.slider {
+    width: 100%;
+}
+
+.slide-content {
+    flex-direction: row;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.slide-content li {
+    max-width: 25%;
+}
