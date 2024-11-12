@@ -6,15 +6,11 @@ main {
     flex-direction: column;
 }
 
-.cabecalho {
-    /* flex-direction: column; */
-}
-
 .logo {
     width: 30%;
 }
 
-article {
+.container {
     width: 100%;
 }
 
@@ -22,12 +18,28 @@ article h1 {
     text-align: center;
 }
 
+.about {
+    flex-flow: column wrap;
+}
+
+.destaque-index {
+    font-size: 1rem;
+}
+
+.com-left, .com-right {
+    width: 100%;
+}
+
+.list-destak > li {
+    padding-left: 0;
+}
+
 .slider {
     width: 100%;
 }
 
 .slide-content {
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     gap: .5rem;
 }

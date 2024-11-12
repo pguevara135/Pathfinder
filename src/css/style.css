@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root  {
+    --red-titulo: rgb(195, 0, 47);
     --red: rgb(203, 46, 48);
     --white: rgb(255, 255, 255);
-    --light-gray: rgb(237, 240, 243);
+    --light-gray: rgb(238, 238, 238);
     --gray: rgb(168, 182, 198);
     --blue: rgb(49, 74, 145);
+    --fundo-gray: rgb(191,191,191);
+    --black: rgb(0, 0, 0);
+    --font: rgb(42, 42, 43);
+    --light-black: rgb(26, 26, 26);
+    --terra: rgb(138, 54, 15);
+    --terra-avela: rgb(139, 6, 19);
 }
 
 h1, h2, h3, h4 {
@@ -16,6 +23,7 @@ h1, h2, h3, h4 {
 }
 h1 {
     font-size: 5vw;
+    color: var(--red-titulo);
 }
 
 h2 {
@@ -33,12 +41,6 @@ h5 {
     font-weight: bold;
 }
 
-.strong {
-    font-weight: bold;
-    font-style: italic;
-    font-size: large;
-}
-
 button {
     cursor: pointer;
 }
@@ -47,12 +49,18 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 0.7rem;
-    background-color: var(--light-gray);
-    color: var(--blue);
+    background: var(--blue);
+    color: var(--font);
     font-family:  "Roboto", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
     box-sizing: border-box;
+}
+
+.strong {
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
 }
 
 .cabecalho {
@@ -60,7 +68,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    overflow: auto;
 }
 
 .tit_logo {
@@ -90,14 +97,15 @@ body {
 }
 
 main {
-    width: 97.5%;
-    background-color: var(--white);
+    width: 100%;
+    background: linear-gradient(var(--light-black), var(--fundo-gray));
     display: flex;
     gap: 10px;
 }
 
-article {
-    background-color: var(--white);
+.container {
+    color: var(--white);
+    background: linear-gradient(to right, var(--light-black), var(--fundo-gray));
     width: 80%;
     padding: 0.5rem;
 }
@@ -128,6 +136,7 @@ ul {
 img {
     max-width: 100%;
     height: auto;
+    image-rendering: pixelated;
 }
 
 .btn button {
@@ -175,10 +184,13 @@ aside {
     padding: 0.5rem;
     margin-bottom: 5px;
     background-color: var(--gray);
-    overflow: scroll;
 }
 
 .slide-content h5 {
     margin: .4em auto;
     text-align: center;
+}
+
+.rodape {
+    margin-top: 1rem;
 }

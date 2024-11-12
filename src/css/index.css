@@ -15,8 +15,51 @@ article h2 {
     border: 2px solid darkblue;
 }
 
-li:nth-child(1) {
-    background-color: greenyellow;
+.tittle-about {
+    text-align: center;
+}
+
+.destaque-index {
+    text-align: center;
+    color: var(--white);
+    text-shadow: 1px 1px 5px var(--light-gray);
+    font-size: 1.1vw;
+    margin-bottom: 1rem;
+}
+
+.about {
+    width: 100%;
+    padding: 1.2rem;
+    border: 2px solid white;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+}
+
+.com-left, .com-right {
+    width: 48%;
+}
+
+.list-destak li {
+    background-color: transparent;
+    padding-left: 1rem;
+    margin-bottom: .4rem;
+}
+
+.list-destak li::before {
+    content: "- ";
+}
+
+.slider-contet > li:nth-child(1) {
+    background-color: var(--light-gray);
+}
+
+.slider-conten > li:nth-child(2) {
+    background-color: var(--fundo-gray);
+}
+
+.slider-conten li:nth-child(3) {
+    background-color: var(--teste);
 }
 
 li img {

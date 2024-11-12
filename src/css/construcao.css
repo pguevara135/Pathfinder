@@ -1,0 +1,43 @@
+.principal {
+    width: 100%;
+    background: linear-gradient(to lefyt, var(--fundo-gray), var(--test));
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    border: 2px solid var(--gray);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--gray);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.container img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 0 10px var(--light-black);
+    margin-top: 2rem;
+}
+
+.message {
+    text-shadow: 1px 0 3px var(--light-gray);
+    margin: 20px auto;
+    color: var(--terra-avela);
+}
+
+.highlight {
+    color: var(--terra);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
