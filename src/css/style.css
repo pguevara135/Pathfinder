@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root  {
-    --red-titulo: rgb(195, 0, 47);
+    --red-titulo: rgb(255, 0, 0);
     --red: rgb(203, 46, 48);
     --white: rgb(255, 255, 255);
     --light-gray: rgb(238, 238, 238);
     --gray: rgb(168, 182, 198);
+    --background-body: rgb(248, 248, 248);
+    --background-header: rgb(30, 144, 255);
     --blue: rgb(49, 74, 145);
     --fundo-gray: rgb(191,191,191);
     --black: rgb(0, 0, 0);
@@ -13,6 +15,7 @@
     --light-black: rgb(26, 26, 26);
     --terra: rgb(138, 54, 15);
     --terra-avela: rgb(139, 6, 19);
+    --platinum: rgb(102, 102, 102);
 }
 
 h1, h2, h3, h4 {
