@@ -50,6 +50,10 @@ article h2 {
     content: "- ";
 }
 
+.slider {
+    /* width: 100%; */
+}
+
 .slider-contet > li:nth-child(1) {
     background-color: var(--light-gray);
 }

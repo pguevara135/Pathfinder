@@ -12,21 +12,17 @@
     --fundo-gray: rgb(191,191,191);
     --black: rgb(0, 0, 0);
     --font: rgb(42, 42, 43);
-    --light-black: rgb(26, 26, 26);
+    --light-black: rgb(88, 58, 58);
     --terra: rgb(138, 54, 15);
     --terra-avela: rgb(139, 6, 19);
     --platinum: rgb(102, 102, 102);
 }
 
 h1, h2, h3, h4 {
-    color: var(--red);
-    /* font-size: 3vw; */
+    color: var(--gray);
+    font-size: 3em;
     font-weight: bolder;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
-}
-h1 {
-    font-size: 5vw;
-    color: var(--red-titulo);
 }
 
 h2 {
@@ -52,7 +48,7 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 0.7rem;
-    background: var(--blue);
+    background: linear-gradient(to right, var(--light-black) 50%, var(--terra-avela));
     color: var(--font);
     font-family:  "Roboto", sans-serif;
     font-weight: 500;
@@ -100,7 +96,7 @@ body {
 }
 
 main {
-    width: 100%;
+    max-width: 100%;
     background: linear-gradient(var(--light-black), var(--fundo-gray));
     display: flex;
     gap: 10px;
@@ -108,7 +104,7 @@ main {
 
 .container {
     color: var(--white);
-    background: linear-gradient(to right, var(--light-black), var(--fundo-gray));
+    background: linear-gradient(to right, var(--black), var(--fundo-gray));
     width: 80%;
     padding: 0.5rem;
 }
@@ -156,9 +152,12 @@ img {
 }
 
 button {
-    background-color: var(--blue);
+    background-color: rgb(130, 223, 130);
     border: 2px solid var(--white);
     padding: 5px 10px;
+    a {
+        color: var(--terra);
+    }
 }
 
 .mobile-menu-icon > button:hover {
